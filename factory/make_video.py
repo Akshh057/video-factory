@@ -64,9 +64,18 @@ def main(folder, use_api=True):
     if use_api:
         print(f"[1/3] Voice for {len(scenes)} scenes")
         make_voice(scenes, audio_dir, cfg.get("voice", {}))
-        print(f"[2/3] Images for {len(scenes)} scenes")
-        make_images(scenes, cfg.get("style", ""), img_dir, steps=cfg.get("image_steps", 8),
-                    seed_base=name)
+        if cfg.get("images") == "auto":
+            print(f"[2/3] Images for {len(scenes)} scenes")
+            make_images(scenes, cfg.get("style", ""), img_dir, steps=cfg.get("image_steps", 8),
+                        seed_base=name)
+        else:
+            print("[2/3] Images: using the ones you uploaded")
+
+    missing = [f"{i + 1:02d}" for i, sc in enumerate(scenes)
+               if not (sc.get("image") or existing(img_dir, f"{i + 1:02d}"))]
+    if missing:
+        raise SystemExit(f"Voice is saved. Waiting for {len(missing)} image(s): {', '.join(missing)}. "
+                         f"Upload them to {img_dir}/ (like 01.png) and push.")
 
     print("[3/3] Building timeline and rendering")
     pieces, timeline, t = [], [], 0.0

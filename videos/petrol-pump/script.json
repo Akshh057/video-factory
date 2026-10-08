@@ -1,0 +1,167 @@
+{
+  "title": "पेट्रोल पंप वाला असल में कितना कमाता है? | जगह ही सब कुछ है",
+  "voice": {
+    "model_id": "eleven_multilingual_v2"
+  },
+  "style": "Flat 2D cartoon illustration, Indian setting, warm sunset colors with deep blue shadows, clean bold outlines, simple shapes, expressive characters, main subject centered in the frame, no text, no letters, no numbers, no brand logos.",
+  "image_steps": 8,
+  "images": "manual",
+  "scenes": [
+    {
+      "text": "दो पेट्रोल पंप। एक ही कंपनी, एक ही दाम, बिल्कुल एक जैसी मशीनें। एक मालिक ने इस साल नई गाड़ी खरीदी, और दूसरा बैंक की ईएमआई तक नहीं भर पा रहा।",
+      "image_prompt": "Two identical petrol pumps side by side, the left one glowing with a shiny new SUV parked in front, the right one dull with a worried owner holding bank papers."
+    },
+    {
+      "text": "फर्क किस्मत का नहीं है, मेहनत का भी नहीं। फर्क बस एक चीज़ का है। पंप खड़ा कहाँ है।",
+      "image_prompt": "A giant red location pin dropping onto a map, a small petrol pump under it, roads spreading out in all directions."
+    },
+    {
+      "text": "और एक बात सुनकर तुम चौंक जाओगे। तुम one hundred रुपये का पेट्रोल भरवाते हो, तो पंप मालिक के हाथ में आते हैं सिर्फ four रुपये के आसपास।",
+      "image_prompt": "A big Indian 100 rupee note, only a tiny sliver of it falling into a petrol pump owner's open hand, the owner looks shocked."
+    },
+    {
+      "text": "आज हम पेट्रोल पंप की पूरी कमाई का हिसाब खोलेंगे। अगर तुम्हें ऐसी कहानियाँ पसंद हैं जहाँ जगह तय करती है कि पैसा कितना बनेगा, तो पैरेलल थ्योरी को अभी सब्सक्राइब कर लो।",
+      "image_prompt": "A map of India at dusk with highways glowing like golden lines, one small petrol pump shining on a highway."
+    },
+    {
+      "text": "पहले यह समझो कि तुम्हारा पैसा जाता कहाँ है। आज दिल्ली में पेट्रोल लगभग one hundred two रुपये लीटर है।",
+      "image_prompt": "A petrol pump price board seen through a car window, a busy Indian city skyline behind it."
+    },
+    {
+      "text": "इसमें से एक तिहाई से ज़्यादा पैसा टैक्स में जाता है। कुछ केंद्र सरकार ले जाती है, कुछ राज्य सरकार।",
+      "image_prompt": "A 100 rupee note being cut by giant scissors, a big piece flying toward two grand government buildings."
+    },
+    {
+      "text": "बाकी का बड़ा हिस्सा तेल की असली कीमत है। कच्चा तेल, रिफाइनरी, ढुलाई और तेल कंपनी का हिस्सा।",
+      "image_prompt": "An oil rig at sea, a big refinery and a fuel tanker truck lined up in one row, connected by a pipeline."
+    },
+    {
+      "text": "और सबसे आखिर में पंप वाले का कमीशन। पेट्रोल पर लगभग four रुपये लीटर, डीज़ल पर लगभग three रुपये। बस इतना ही।",
+      "image_prompt": "A petrol pump owner in his small cabin looking at a few small coins in his palm."
+    },
+    {
+      "text": "तो फिर लोग पंप के पीछे पागल क्यों हैं? इसे समझने के लिए दो लोगों से मिलते हैं। विक्रम और मोहन।",
+      "image_prompt": "Two men standing side by side facing the viewer: Vikram (Indian man, 35, slim, neat light-blue shirt, short black hair, confident) on the left and Mohan (Indian man, 40, round face, thick mustache, white kurta, worried look) on the right."
+    },
+    {
+      "text": "विक्रम की ज़मीन शहर से बाहर निकलने वाले हाईवे पर है। मोहन की ज़मीन गाँव के पास एक शांत सड़क पर। दोनों पंप के लिए अप्लाई करते हैं।",
+      "image_prompt": "Split scene: left half shows Vikram (Indian man, 35, slim, neat light-blue shirt, short black hair, confident) on an empty plot beside a busy highway leaving a city; right half shows Mohan (Indian man, 40, round face, thick mustache, white kurta, worried look) on an empty plot beside a quiet village road with fields."
+    },
+    {
+      "text": "पहला नियम यह है कि पंप कोई भी अपनी मर्ज़ी से नहीं खोल सकता। इंडियन ऑयल, भारत पेट्रोलियम और हिंदुस्तान पेट्रोलियम जैसी कंपनियाँ तय करती हैं कि पंप कहाँ चाहिए।",
+      "image_prompt": "Three tall oil company office towers in different colors, a man in a suit pointing at a big map on a wall."
+    },
+    {
+      "text": "कंपनी पहले इलाके का सर्वे करती है, फिर उस जगह का विज्ञापन निकालती है। फॉर्म ऑनलाइन भरा जाता है।",
+      "image_prompt": "A surveyor with a clipboard standing beside a highway, and a person filling an online form on a laptop."
+    },
+    {
+      "text": "उम्र कम से कम twenty one साल चाहिए, थोड़ी पढ़ाई की शर्त होती है, और फीस और सिक्योरिटी भी जमा करनी पड़ती है।",
+      "image_prompt": "A young Indian man at an office desk showing an ID card and a school certificate to an officer."
+    },
+    {
+      "text": "चुनाव ज़्यादातर ड्रॉ या बोली से होता है। हज़ारों लोग अप्लाई करते हैं, नंबर कुछ का ही लगता है। विक्रम और मोहन, दोनों का नंबर लग जाता है।",
+      "image_prompt": "A big lottery drum full of application papers spinning, Vikram (Indian man, 35, slim, neat light-blue shirt, short black hair, confident) and Mohan (Indian man, 40, round face, thick mustache, white kurta, worried look) cheering with raised hands."
+    },
+    {
+      "text": "अब असली खर्चा शुरू होता है। ज़मीन के नीचे बड़े टैंक, ऊपर छत यानी कैनोपी, और तेल भरने वाली मशीनें।",
+      "image_prompt": "Construction site of a petrol pump: a crane lowering big cylinder fuel tanks into a pit, a canopy frame going up, workers in helmets."
+    },
+    {
+      "text": "फिर ऑफिस, टॉयलेट, जनरेटर, सीसीटीवी कैमरे। और ढेर सारी मंज़ूरियाँ। फायर विभाग की एनओसी, विस्फोटक विभाग की मंज़ूरी, प्रदूषण बोर्ड का सर्टिफिकेट।",
+      "image_prompt": "A desk piled high with stamped permission papers, a fire officer and an inspector checking files."
+    },
+    {
+      "text": "ज़मीन छोड़ दो, तब भी खर्चा अक्सर fifty लाख के पार चला जाता है। बड़े हाईवे पंप पर बात करोड़ों में पहुँचती है। दोनों बैंक से लोन लेते हैं।",
+      "image_prompt": "A bank manager across a desk handing thick loan papers to Vikram (Indian man, 35, slim, neat light-blue shirt, short black hair, confident) and Mohan (Indian man, 40, round face, thick mustache, white kurta, worried look), stacks of money on the desk."
+    },
+    {
+      "text": "अब एक बात जो ज़्यादातर लोग नहीं जानते। पंप मालिक तेल कंपनी को पैसा पहले देता है, टैंकर बाद में आता है। एक बड़ा टैंकर मतलब ten लाख रुपये से ज़्यादा, एडवांस में।",
+      "image_prompt": "A pump owner sending money on his phone while a fuel tanker truck waits at a depot gate."
+    },
+    {
+      "text": "यह पैसा तब तक फँसा रहता है जब तक तेल बिक न जाए। इसे कहते हैं वर्किंग कैपिटल। जिस पंप पर तेल धीरे बिकता है, उसका पैसा उतने ज़्यादा दिन फँसा रहता है।",
+      "image_prompt": "Bundles of rupee notes trapped inside a giant transparent fuel tank, a big clock ticking beside it."
+    },
+    {
+      "text": "दाम भी मालिक तय नहीं करता। दाम कंपनी तय करती है। मालिक को मिलता है हर लीटर पर एक तय कमीशन।",
+      "image_prompt": "A company official changing the price board at a petrol pump while the pump owner watches with folded arms."
+    },
+    {
+      "text": "और यह कमीशन भी बहुत कम बढ़ता है। अक्टूबर twenty twenty four में लगभग eight साल बाद बढ़ा। पेट्रोल पर sixty five पैसे और डीज़ल पर forty four पैसे।",
+      "image_prompt": "A wall calendar with pages flying off over many years, then one tiny coin being added to a small pile."
+    },
+    {
+      "text": "अब आता है असली खेल। जगह का। विक्रम का पंप शहर के एग्ज़िट पर है। सुबह ट्रक शहर से बाहर निकलते हैं, लोग सफर पर जाते हैं, और शाम को सब वापस आते हैं।",
+      "image_prompt": "Morning highway at a city exit, many trucks and cars leaving the city, a busy petrol pump beside the road full of vehicles."
+    },
+    {
+      "text": "लंबे सफर से पहले हर कोई टंकी फुल करवाता है। ट्रक वाले हाईवे पकड़ने से पहले सैकड़ों लीटर डीज़ल भरवाते हैं। इसलिए विक्रम का डीज़ल सबसे ज़्यादा बिकता है।",
+      "image_prompt": "A long line of colorful Indian trucks waiting to fill diesel at a busy highway petrol pump."
+    },
+    {
+      "text": "विक्रम रोज़ लगभग four thousand लीटर पेट्रोल और six thousand लीटर डीज़ल बेचता है। कमीशन बनता है करीब thirty four thousand रुपये रोज़। महीने का करीब ten लाख।",
+      "image_prompt": "Vikram (Indian man, 35, slim, neat light-blue shirt, short black hair, confident) in his petrol pump cabin counting a thick stack of rupee notes, smiling."
+    },
+    {
+      "text": "अब खर्चे। twelve लोगों का स्टाफ, करीब one point eight लाख। बिजली, जनरेटर, मरम्मत, बीमा, हिसाब वाला, करीब one point five लाख। और बैंक की ईएमआई करीब two लाख।",
+      "image_prompt": "Petrol pump staff in uniforms lined up, a generator, a repair man with tools, and a bank loan notice pinned on the wall."
+    },
+    {
+      "text": "सब घटा दो, तो विक्रम के हाथ में हर महीने करीब four से five लाख रुपये बचते हैं।",
+      "image_prompt": "Vikram (Indian man, 35, slim, neat light-blue shirt, short black hair, confident) relaxed and smiling at his desk, a neat pile of money left in front of him."
+    },
+    {
+      "text": "अब मोहन की तरफ चलो। शांत सड़क, दिन भर में कुछ ट्रैक्टर और बाइक। रोज़ की बिक्री सिर्फ one thousand five hundred लीटर। कमीशन करीब five thousand रुपये रोज़, महीने का one point five लाख।",
+      "image_prompt": "A quiet village petrol pump with empty lanes, only one tractor and one motorbike, fields around it."
+    },
+    {
+      "text": "पर खर्चे उतने कम नहीं होते। स्टाफ चाहिए, बिजली चाहिए, और ईएमआई तो वही है। हर महीने करीब two लाख का खर्चा। मोहन हर महीने घाटे में है।",
+      "image_prompt": "Mohan (Indian man, 40, round face, thick mustache, white kurta, worried look) at night under a single bulb reading a pile of bills, a very small pile of money beside him."
+    },
+    {
+      "text": "एक ही कंपनी, एक ही दाम, एक ही कमीशन। बदली सिर्फ जगह। इसीलिए पंप वाले कहते हैं, इस धंधे में जगह ही सब कुछ है।",
+      "image_prompt": "Split scene: left a busy highway petrol pump full of trucks with a glowing location pin above it, right an empty village petrol pump."
+    },
+    {
+      "text": "यहाँ तक कि सड़क की साइड भी मायने रखती है। शहर से बाहर जाने वाली साइड का पंप सफर से पहले वाले ग्राहक पकड़ता है। और जहाँ ट्रक आसानी से मुड़ सके, वहाँ बिक्री और बढ़ती है।",
+      "image_prompt": "Top-down view of a divided highway, a petrol pump on one side with trucks easily turning into it."
+    },
+    {
+      "text": "राज्यों की सीमा पर तो खेल और दिलचस्प है। हर राज्य का वैट अलग होता है। ट्रक वाले उसी राज्य में टंकी भरवाते हैं जहाँ डीज़ल सस्ता है। कुछ किलोमीटर का फर्क लाखों की कमाई तय कर देता है।",
+      "image_prompt": "A state border arch on a highway, trucks lined up at a petrol pump just across the border."
+    },
+    {
+      "text": "समझदार मालिक सिर्फ तेल के भरोसे नहीं बैठते। इंजन ऑयल पर मार्जिन तेल से कहीं ज़्यादा है। साथ में हवा और नाइट्रोजन, छोटी दुकान, एटीएम का किराया, किराए पर ढाबा, और होर्डिंग से विज्ञापन की कमाई।",
+      "image_prompt": "A petrol pump with a small shop, an ATM booth, an air filling machine, a roadside dhaba and a big billboard."
+    },
+    {
+      "text": "अब, पंप डूबते क्यों हैं? पहली वजह उधारी। ट्रक मालिक कहते हैं, महीने के आखिर में पैसा देंगे। पर मालिक तो कंपनी को पहले ही पैसा दे चुका है। उसका पैसा दोनों तरफ से फँस जाता है।",
+      "image_prompt": "A truck driver waving and promising to pay later while the pump owner holds a long unpaid bill."
+    },
+    {
+      "text": "दूसरी वजह, दाम का झटका। मालिक ने आज टैंक भरा, कल दाम गिर गया। अब महँगा खरीदा तेल सस्ते में बेचना पड़ेगा।",
+      "image_prompt": "A price board with a big red arrow going down, the pump owner staring at his full fuel tanks in shock."
+    },
+    {
+      "text": "तीसरी वजह, जगह ही बदल जाती है। पास में नया बाइपास या एक्सप्रेसवे बन गया, और ट्रैफिक रातों रात दूसरी तरफ चला गया। या सामने नया पंप खुल गया। ऊपर से ईवी भी बढ़ रही हैं।",
+      "image_prompt": "A shiny new flyover bypass in the distance carrying all the traffic away from an old empty petrol pump, an electric car charging station nearby."
+    },
+    {
+      "text": "और हाँ, मिलावट। कुछ लोग करते हैं, पर यह गैरकानूनी है। कंपनियाँ और सरकारी विभाग तेल और नापतौल की जाँच करते रहते हैं। पकड़े गए तो पंप सील और लाइसेंस रद्द। जो पंप सालों से चल रहे हैं, वो भरोसे और बिक्री से चल रहे हैं।",
+      "image_prompt": "An inspector in a uniform testing fuel in a glass jar at a petrol pump, a sealed closed pump with tape in the background."
+    },
+    {
+      "text": "तो पैसा वापस कब आता है? अच्छी जगह, ठीक बिक्री और कंट्रोल में खर्चा हो, तो मोटा अंदाज़ा है five से eight साल। अपनी ज़मीन हो तो जल्दी। यह रातों रात अमीर बनने का धंधा नहीं है।",
+      "image_prompt": "A calendar with years passing and a piggy bank slowly filling with coins."
+    },
+    {
+      "text": "कहानी का सार यह है। पंप वाला असल में पेट्रोल नहीं बेचता। वह अपनी जगह बेचता है। गलत जगह पर four रुपये कुछ नहीं हैं, और सही जगह पर यही four रुपये सोने की खान हैं। जगह ही तय करती है किस्मत।",
+      "image_prompt": "A golden glowing location pin standing tall over a petrol pump on a map, rays of light around it."
+    },
+    {
+      "text": "अब बताओ, अगर तुम्हारे पास ज़मीन और पैसा हो, तो क्या तुम पंप खोलोगे? कमेंट में लिखो। और अगली बार जब one hundred रुपये का पेट्रोल भरवाओ, तो याद रखना किसके हिस्से में कितना गया। पैरेलल थ्योरी को सब्सक्राइब करना मत भूलना।",
+      "image_prompt": "A curious crowd of Indian people at a petrol pump looking at the viewer, one hand holding a 100 rupee note."
+    }
+  ]
+}
