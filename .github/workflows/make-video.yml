@@ -1,0 +1,85 @@
+name: Make video
+
+on:
+  push:
+    branches: [main]
+    paths: ["videos/**"]
+  workflow_dispatch:
+    inputs:
+      video:
+        description: "Folder name inside videos/ (for example: petrol-pump)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: make-video
+  cancel-in-progress: false
+
+jobs:
+  make:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find which video to make
+        id: pick
+        run: |
+          if [ -n "${{ github.event.inputs.video }}" ]; then
+            echo "list=${{ github.event.inputs.video }}" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          BEFORE="${{ github.event.before }}"
+          if git cat-file -e "$BEFORE" 2>/dev/null; then
+            FILES=$(git diff --name-only "$BEFORE" "${{ github.sha }}")
+          else
+            FILES=$(git show --name-only --pretty="" HEAD)
+          fi
+          LIST=$(echo "$FILES" | grep '^videos/' | cut -d/ -f2 | sort -u | while read d; do [ -f "videos/$d/script.json" ] && echo "$d"; done | tr '\n' ' ')
+          echo "Videos to make: $LIST"
+          echo "list=$LIST" >> "$GITHUB_OUTPUT"
+
+      - name: Install tools
+        if: steps.pick.outputs.list != ''
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q numpy opencv-python-headless pillow requests
+
+      - name: Make the videos
+        if: steps.pick.outputs.list != ''
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          for v in ${{ steps.pick.outputs.list }}; do
+            echo "::group::$v"
+            python factory/make_video.py "videos/$v"
+            echo "::endgroup::"
+          done
+
+      - name: Save voice and images back to the repo (so re-runs reuse them)
+        if: always() && steps.pick.outputs.list != ''
+        run: |
+          git config user.name "video-factory-bot"
+          git config user.email "video-factory-bot@users.noreply.github.com"
+          git add videos/*/audio videos/*/images 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Save generated voice and images [skip ci]"
+            git push
+          fi
+
+      - name: Upload the finished video
+        if: always() && steps.pick.outputs.list != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos
+          path: |
+            out/*/*.mp4
+            out/*/images-preview.jpg
+          retention-days: 14
+          compression-level: 0
